@@ -1,5 +1,5 @@
 {
-  "$id": "orderWizardSchematic",
+  "id": "orderWizardSchematic",
   "title": "Material Stepper Order Wizard",
   "type": "object",
   "properties": {
@@ -16,6 +16,11 @@
       "type": "string",
       "description": "Specifies the path to create the Order Wizard under",
       "default": ""
+    },
+    "project": {
+      "type": "string",
+      "description": "Specifies the project to run the schematic in",
+      "default": "defaultProject"
     }
   },
   "required": [

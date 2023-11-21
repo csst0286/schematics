@@ -19,6 +19,7 @@
     "@types/jasmine": "^2.6.0",
     "@types/node": "^8.0.31",
     "jasmine": "^2.8.0",
+    "tslint": "^5.18.0",
     "typescript": "~3.2.2"
   }
 }
