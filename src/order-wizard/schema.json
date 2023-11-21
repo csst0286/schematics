@@ -11,6 +11,11 @@
       "type": "string",
       "description": "Specifies if a spec file is generated.",
       "default": "true"
+    },
+    "path": {
+      "type": "string",
+      "description": "Specifies the path to create the Order Wizard under",
+      "default": ""
     }
   },
   "required": [
