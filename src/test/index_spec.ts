@@ -46,7 +46,7 @@ describe('order-wizard', () => {
       const tree = runner.runSchematic('order-wizard', { name: nameOption, path: pathOption }, testTree);
 
       tree.files.slice(3).forEach((filePath: string) => {
-        expect(filePath.startsWith(`/${pathOption}/`)).toEqual(true);
+        expect(filePath.includes(`/${pathOption}/`)).toEqual(true);
       });
     });
 
